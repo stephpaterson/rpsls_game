@@ -1,7 +1,7 @@
 import unittest
 
-from game import Game
-from player import Player
+from models.game import Game
+from models.player import Player
 
 
 class TestGame(unittest.TestCase):

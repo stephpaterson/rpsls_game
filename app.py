@@ -1,6 +1,6 @@
-from computer_player import ComputerPlayer
-from player import Player
-from game import Game
+from models.computer_player import ComputerPlayer
+from models.player import Player
+from models.game import Game
 
 choices = ["scissors", "paper", "rock", "lizard", "spock"]
 
