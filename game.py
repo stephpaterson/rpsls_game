@@ -16,6 +16,7 @@ class Game:
             return "it's a draw"
         loser = self.result_lookup[self.player_1.choice]
         if self.player_2.choice in loser:
-            return "player 1 wins"
+            return f"{self.player_1.name} wins by playing {self.player_1.choice}"
         else:
-            return "player 2 wins"
+            return f"{self.player_2.name} wins by playing {self.player_2.choice}"
+

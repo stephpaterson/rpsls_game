@@ -2,10 +2,10 @@ import random
 
 class ComputerPlayer:
     
-    def __init__(self, choice):
+    def __init__(self):
         self.name = "computer"
-        self.choice = choice
+        self.choice = None
     
-    def choice_randomiser():
+    def choice_randomiser(self):
         choices = ["rock", "paper", "scissors", "lizard", "spock"]
-        return random.choice(choices)
+        self.choice =random.choice(choices)
